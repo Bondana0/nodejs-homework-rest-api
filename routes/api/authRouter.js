@@ -1,7 +1,7 @@
 import { Router } from "express";
 import authSchema from "../../schemas/authSchema.js";
 import subscribtionSchema from '../../schemas/subscribtionSchema.js';
-import { auth } from "../../auth-key/auth.js";
+import { auth } from "../../middlewares/auth.js";
 import { isValidId } from "../../helpers/validateById.js";
 import { validateBody } from "../../helpers/validateBody.js";
 import { register } from "../../controlers/auth/register.js";

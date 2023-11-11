@@ -5,7 +5,7 @@ import { getAllContacts } from '../../controlers/contacts/getAllContact.js';
 import { getContactById } from '../../controlers/contacts/getContactById.js';
 import { updateFavorite } from '../../controlers/contacts/updateContactStatus.js';
 import { updateContact } from '../../controlers/contacts/updateContact.js';
-import { auth } from '../../auth-key/auth.js';
+import { auth } from '../../middlewares/auth.js';
 import { isValidId } from '../../helpers/validateById.js';
 import { validateBody } from '../../helpers/validateBody.js';
 import { schemas } from '../../schemas/contacts.js';
